@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+/* Selecotor universal*/
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* etiquetas permanentes */
+
+h1 {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    margin:15px 20px;
+    border-radius:5px ;
+}
+
+h2 { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    margin: 15px 15px;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+h3 {display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bolder;
+    margin: 5px 100px;
+    padding: 5px 5px
+    
+}
+
+h4  {
+    display: flex;
+    justify-content: start;
+    font-size: 1.2em;
+    margin: 5px;
+    text-align: center;
+    margin-left: 30px ;
+}
+
+h5 {
+    font-size: 1.1em;
+    margin: 10px;
+    display: flex;
+    text-align: start;
+
+}
+
+h6 { 
+    margin: 5px;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+
+}
+
+p {
+    line-height: 1em;
+    margin: 10px;
+    
+    
+
+}
+
+.promo-hot {
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(152, 44, 44);
+    border-radius:5px ;
+    font-size: 1.5em;
+}
+body {
+    background-color: rgb(152, 44, 44); ;
+    margin:0px 0px ;
+    padding: 0px 0px;
+}
+
+/*header */
+
+header {
+    margin: 0px 0px;
+    padding: 4px 0px;
+    background-color: #2e2d2d;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+
+header .navbar-brand img {
+    width: 150px;
+    margin: 15px;
+}
+
+.navbar {
+    margin: 15px 0px;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar-toggler{
+    width: auto;
+    height: auto;
+    background-color: #d7d7d7; 
+    border: none }
+
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.nav-link {
+    
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-right: 15px;
+    margin: 5px;
+}
+
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.busqueda {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+/* Main */
+
+/* Publicidad*/
+
+#grid-layout {
+    background-color: rgb(152, 44, 44);
+    margin: 0px 0px;
+    padding:0px 0px;
+    
+}
+
+#publicidad {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#carouselExampleAutoplaying { 
+    display: flex;
+    justify-content: center;
+}
+.carousel {
+    width:90% ;
+    display: flex;
+    justify-content: center;
+    
+}
+.carousel-item img { 
+    height: 550px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border: 2px ride #5d5d5d;
+}
+
+/* productos */
+
+#productos { 
+    margin: 30px 30px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.card { 
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    padding: auto;
+    border: solid 01px rgb(19, 19, 19);
+    
+}
+.card-img-top {
+    margin: 0px 0px;
+    padding: 0px;
+}
+.card-body {
+    height: 200px;
+    
+}
+.card-title {
+    text-align: start;
+    
+}
+.card-text {
+    font-size: 1.3em ;
+    text-align: start;
+    font-weight: bold
+    
+}
+
+.btn-primary {
+    border:solid black 0.1px ;
+    background-color: #515050
+    
+
+}
+
+.btn-primary:hover {
+    border: none;
+    background-color: #c1bebe;
+}
+
+.card .card-img-top:hover {
+    transform: scale(1.1);
+}
+
+
+/* descuento*/
+
+.container-descuentos { 
+    display: flex;
+    justify-content: center;
+    margin: 55px 50px 0px;
+
+}
+
+.container-descuentos img {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+    margin: 15px ;
+}
+
+
+
+/*marcas seleccionadas*/
+
+.container-seleccionadas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 60px;
+
+    
+}
+
+.container-seleccionadas img {
+    margin: 25px;
+    width: 200px;
+
+}
+
+.container-seleccionadas img:hover {
+    transform: scale(1.2);
+}
+
+/* whatsapp*/
+
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+/*footer*/
+
+.container-footer {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.container-footer a {
+    display: flex;
+    justify-content: start;
+}
+
+.container-footer ul {
+    list-style: circle;
+    font-size: 1em
+
+
+}
+.container-footer ul li {
+    list-style: none;
+}
+
+.container-footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.container-footer .social {
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    margin: 5px 20px;
+    }
+.container-footer .social ul li  {
+    list-style: none;
+    margin: 5px;
+    }
+    
+.container-footer .social a img {
+    width: 20px;
+
+    }
+.container-footer .social img:hover {
+    transform: scale(1.1);
+    }
+
+.footer-copyrigh {
+    display: flex;
+    justify-content: center;
+    }
+
+    /*filtros */
+    
+#grid-layout-hombres {
+    display: grid;
+    grid-template-columns: 100% ;
+
+    }
+
+.container-filtros {
+
+    align-items: center;
+}
+
+.btn-primary-filtros {
+    margin: 30px 130px;
+    color: #0b0202;
+    background-color: #ffffff;
+}
+
+.btn-primary-filtros:hover {
+    border: none;
+    background-color: #e3e3e3;
+}
+
+.btn-primary-filtrar {
+    margin: 10px 10px;
+    color: #0b0202;
+    background-color: #d5d2d2;
+}
+
+.btn-primary-filtrar:hover {
+    border: none;
+    background-color: #e3e3e3;
+}
